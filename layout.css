@@ -1,0 +1,42 @@
+.container {
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+}
+
+.station {
+  grid-row: 1;
+  grid-column: 2;
+}
+
+.chain {
+  grid-row: 2;
+  grid-column: 1;
+}
+
+.hands {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.earring {
+  grid-row: 2;
+  grid-column: 3;
+}
+
+.portrait {
+  grid-row: 1;
+  grid-column: 3;
+}
+
+.galleri {
+  grid-row: 2;
+  grid-column: 2;
+  margin-top: 100px;
+}
